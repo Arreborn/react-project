@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+:root {
+  --text-color: #c6d0f5;
+  --background-color: #303446;
+  --green: #a6d189;
+  --red: #e78284;
+  --lavender: #babbf1;
+  --flamingo: #eebebe !important;
+  --dark-accent: #232634 !important;
+  --light-accent: #51576d !important; 
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+article{
+  padding: 0;
+}
+
+.login{
+  height: 100vh;
+}
+
+#comment {
+  resize: none;
+}
+
+#send_btn {
+  width: 100%;
+  height: 100%;
+}
+
+.btn, .btn:focus {
+  background-color: var(--flamingo);
+  border-color: var(--flamingo);
+  color: var(--dark-accent);
+  box-shadow: 0 0 0 0 !important;
+}
+
+.btn:hover {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-accent);
+  box-shadow: 0 0 0 0 !important;
+  color: var(--flamingo);
+}
+
+.btn:active {
+  background-color: var(--green);
+  border-color: var(--green);
+  box-shadow: 0 0 0 0 !important;
+  color: var(--dark-accent);
+}
+
+.form-check-input:focus {
+  border-color: var(--dark-accent);
+  box-shadow: 0 0 0 0;
+}
+
+.form-check-input:active {
+  border-color: var(--dark-accent);
+}
+
+hr {
+  border-color: var(--flamingo);
+}
+
+.post{
+  font-size: 14px;
+  border-radius:5px;
+  background-color: var(--dark-accent);
+  border-color: var(--dark-accent);
+  color: var(--flamingo);
+  transition: 1s;
+}
+
+.post_text{
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 1px solid var(--flamingo);
+}
+
+.form-check-input {
+  background-color: var(--text-color);
+}
+
+.form-check-input:checked {
+  background-color: var(--flamingo);
+}
+
+.post_read{
+  background-color: var(--light-accent);
+  transition: 1s;
+}
